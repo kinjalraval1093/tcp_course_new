@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer</title>
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/all.css">
+
+    <style>
+        .footer
+        {
+          background-image: url(images/footer-background.avif);
+          height: 400px;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+
+         .footer .logo
+         {
+            margin-block: 20px;
+         }
+
+       .footer .text 
+        {
+          font-size: 12px;
+          text-align: justify;
+          
+        }
+
+        .footer .read
+        {
+            text-decoration: none;
+            font-size: 12px;
+            margin-top: 0;
+            width: max-content;
+            position: relative;
+            cursor: pointer;
+            margin: 100px auto;
+        }
+
+
+        .footer .read::after{
+            content: "";
+            position: absolute;
+            bottom: -5px;
+            height: 2px;
+            width: 100%;
+            left: 0;
+            background-color: #3158D4;
+            transition: 0.3s;
+            transition-timing-function: ease-in-out;
+            transform:scaleX(0) ;
+
+        }
+        .footer .read:hover::after{
+            transform: scaleX(1);
+        }
+    </style>
+</head>
+<body>
+
+    <div><i class="fa-brands fa-x-twitter text- fs-1"></i></div>
+    
+    hello
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                <img src="images/logo.png" alt="" width="100px"  class="logo"> 
+                   <p class="text">Welcome to TCP India, where we take pride in offering IT courses designed to empower students with essential skills and knowledge.</p>
+
+                   <i class="fa-brands fa-x-twitter"></i>
+                   <a href="#" class="read" >Read more..</a>
+
+                   <ul>
+                    <li> <a href="">
+                        <img src="images/fb.png " alt="" width="25px">
+                    </a> </li>
+                    <li> <a href=""></a> </li>
+                    <li> <a href=""></a> </li>
+                    <li> <a href=""></a> </li>
+                   </ul>
+                </div>
+
+                
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <script src="JS/bootstrap.bundle.min.js"></script>
+</body>
+</html>

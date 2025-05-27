@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>owl carousel</title>
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/owl.carousel.css">
+   <link rel="stylesheet" href="css/owl.theme.green.css">
+
+   <script src="js/jquery.min.js"></script>
+   <script src="js/owl.carousel.min.js"></script>
+   <script src="js/bootstrap.bundle.min.js"></script>
+
+   <style>
+
+      .courses{
+         background: url(images/background.jpg);
+         height: 500px;
+        
+         background-size: cover;
+         background-size: 100% 100%;
+      }
+      
+      .card {
+         position: relative;
+         overflow: hidden;
+        border-radius: 10%;
+         
+
+      }
+
+      .content {
+         background: rgb(231, 198, 255,0.7);
+         color:#231942;
+         position: absolute;
+         bottom: -100%;
+         left: 0;
+         height: 100%;
+         width: 100%;
+         padding: 20px;
+         box-sizing: border-box;
+         transition: all 0.6s;
+         transition-timing-function: 0.8s;
+
+      }
+
+      .card:hover .content {
+         bottom: 0;
+
+
+      }
+
+      .card:hover img{
+         filter: blur(2px);
+      }
+
+      .card:hover{
+         box-shadow: 10px 10px 5px gray;
+      }
+
+      
+   </style>
+
+
+
+
+</head>
+
+<body>
+
+   <div class="courses">
+   <div class="container ">
+      <div class="row ">
+         
+      <div class="owl-carousel owl-theme ">
+
+         <div class="item">
+            <div class="card">
+               <img src="images/card1.jpg" alt="">
+               <div class="content">
+                  <h3>Java Full Stack Developer</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur rem nulla error amet, accusantium
+                     placeat similique hic! Quia, esse iure!</p>
+               </div>
+            </div>
+
+         </div>
+
+         <div class="item">
+            <div class="card">
+               <img src="images/card2.jpg" alt="">
+               <div class="content">
+                  <h3>Java Full Stack Developer</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur rem nulla error amet, accusantium
+                     placeat similique hic! Quia, esse iure!</p>
+               </div>
+            </div>
+
+         </div>
+
+         <div class="item">
+            <div class="card">
+               <img src="images/card3.jpg" alt="">
+               <div class="content">
+                  <h3>Java Full Stack Developer</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur rem nulla error amet, accusantium
+                     placeat similique hic! Quia, esse iure!</p>
+               </div>
+            </div>
+
+         </div>
+
+         <div class="item">
+            <div class="card">
+               <img src="images/card4.jpg" alt="">
+               <div class="content">
+                  <h3>Java Full Stack Developer</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur rem nulla error amet, accusantium
+                     placeat similique hic! Quia, esse iure!</p>
+               </div>
+            </div>
+
+         </div>
+         <div class="item">
+            <div class="card">
+               <img src="images/card5.jpg" alt="">
+               <div class="content">
+                  <h3>Java Full Stack Developer</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur rem nulla error amet, accusantium
+                     placeat similique hic! Quia, esse iure!</p>
+               </div>
+            </div>
+
+         </div>
+         <div class="item">
+            <div class="card">
+               <img src="images/card6.jpg" alt="">
+               <div class="content">
+                  <h3>Java Full Stack Developer</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur rem nulla error amet, accusantium
+                     placeat similique hic! Quia, esse iure!</p>
+               </div>
+            </div>
+
+         </div>
+         <div class="item">
+            <div class="card">
+               <img src="images/card7.jpg" alt="">
+               <div class="content">
+                  <h3>Java Full Stack Developer</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur rem nulla error amet, accusantium
+                     placeat similique hic! Quia, esse iure!</p>
+               </div>
+            </div>
+
+         </div>
+
+         <div class="item">
+            <div class="card">
+               <img src="images/card8.jpg" alt="">
+               <div class="content">
+                  <h3>Java Full Stack Developer</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur rem nulla error amet, accusantium
+                     placeat similique hic! Quia, esse iure!</p>
+               </div>
+            </div>
+
+         </div>
+
+         <div class="item">
+            <div class="card">
+               <img src="images/card9.jpg" alt="">
+               <div class="content">
+                  <h3>Java Full Stack Developer</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur rem nulla error amet, accusantium
+                     placeat similique hic! Quia, esse iure!</p>
+               </div>
+            </div>
+
+         </div>
+
+
+
+      </div>
+
+   </div>
+   </div>
+   </div>
+
+
+
+
+
+   <script>
+
+      $('.owl-carousel').owlCarousel({
+         loop: true,
+         margin: 10,
+         nav: true,
+         responsive: {
+            0: {
+               items: 1
+            },
+            600: {
+               items: 2
+            },
+            1000: {
+               items: 3
+            },
+            1400: {
+               items: 4
+            }
+         }
+      })
+
+   </script>
+
+</body>
+
+</html>

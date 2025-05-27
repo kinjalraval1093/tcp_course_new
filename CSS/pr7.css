@@ -1,0 +1,9 @@
+h2{
+    color: darkcyan;                    
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    border-radius: 50px;
+    font-size: 40px;
+    background-color: darksalmon;
+    font-style: italic;
+    text-align: center;
+}

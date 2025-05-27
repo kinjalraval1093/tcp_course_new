@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/all.css">
+
+    <style>
+        .box
+        {
+            border: 2px solid blue;
+            width: 400px;
+            position: relative;
+            overflow: hidden;
+            margin: 10px auto;
+        }
+
+        .box img{
+            width: 100%;
+            height: auto;
+        }
+        .content
+        {
+            color: white;
+            background:rgb(103 ,151, 189, 0.8);
+            position: absolute;
+            top: -100%;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            padding: 20px;box-sizing: border-box;
+            transition: all 0.5s;
+        }
+
+        .box:hover .content{
+
+            top: 0;
+        }
+    </style>
+</head>
+<body>
+    <div><i class="fa-brands fa-x-twitter text- fs-1"></i></div>
+<div class="box">
+    <img src="images/card1.jpg" alt="">
+    <div class="content">
+        <h3>PHP Full Stack Course </h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio repudiandae
+             itaque quo nesciunt error excepturi delectus quibusdam molestiae laudantium!
+              Mollitia?</p>
+    </div>
+</div>
+
+</body>
+</html>

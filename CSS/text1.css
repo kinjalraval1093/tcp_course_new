@@ -1,0 +1,42 @@
+h1{
+    color:#B51B75;
+    -text-transform: uppercase;
+    -text-transform: lowercase;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    -word-spacing: 10px;
+    text-decoration: underline ;
+    text-align: center;
+     text-decoration-color: #2C7865;
+    text-decoration-thickness: 3px;
+    -text-decoration: underline #2C7865 wavy 1px;
+
+}
+a{
+    text-decoration: none;
+}
+
+h2{
+    color: #2C7865;
+    font-size: 55px;
+    text-transform: uppercase;
+    text-align: center;
+    -text-shadow: 1px 4px 5Px gray;
+    text-shadow: 0 2px gold,
+                 2px 0 gold,
+                 0 -2px gold,
+                 -2px 0 gold    ;
+                 
+                 -direction:rtl;
+                 -unicode-bidi: bidi-override;
+}
+
+
+p{
+    color: #A87676;
+    text-indent: 50px;
+    text-align: justify;
+    line-height: 30px;
+    text-align-last: center;
+    -white-space: nowrap;
+}
